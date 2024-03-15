@@ -2,7 +2,7 @@
 
 namespace AP\Geo\OneD\Shape;
 
-class Segment
+class Segment extends AbstractShape
 {
     public function __construct(
         public Point $point1,

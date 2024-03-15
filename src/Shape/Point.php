@@ -2,7 +2,7 @@
 
 namespace AP\Geo\OneD\Shape;
 
-class Point
+class Point extends AbstractShape
 {
     public function __construct(
         public int|float $value,

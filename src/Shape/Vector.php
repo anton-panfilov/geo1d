@@ -2,7 +2,7 @@
 
 namespace AP\Geo\OneD\Shape;
 
-class Vector
+class Vector extends AbstractShape
 {
     public function __construct(
         public Point $point,
